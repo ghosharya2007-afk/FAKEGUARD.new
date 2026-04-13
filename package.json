@@ -1,0 +1,12 @@
+{
+  "name": "fakeguard-news",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix truthguard-ai/frontend",
+    "build": "npm run build --prefix truthguard-ai/frontend",
+    "install:frontend": "npm install --prefix truthguard-ai/frontend",
+    "install:stack": "npm install --prefix truthguard-ai",
+    "dev:live": "npm run dev:live --prefix truthguard-ai",
+    "dev:docker": "docker compose -f truthguard-ai/docker-compose.yml up mongo backend --build"
+  }
+}
